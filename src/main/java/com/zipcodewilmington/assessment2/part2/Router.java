@@ -4,11 +4,12 @@ import javafx.util.Pair;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Router {
     private Boolean usingAL=true;
-    private ArrayList<Pair<String,String>> pseudoMap = new ArrayList<>();
+    private List<Pair<String,String>> pseudoMap = new ArrayList<>();
     private Map<String,String> theMap = new LinkedHashMap<>();
  //   Pair<String,String> thisPair = new Pair<>(s1,s2);
 
